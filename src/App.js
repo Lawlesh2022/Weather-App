@@ -1,9 +1,9 @@
-import Tempapp from './components/Tempapp'
+import Weatherapp from './components/Weatherapp';
 
 function App() {
   return (
     <div>
-     <Tempapp/>   
+     <Weatherapp/>   
     </div>
   );
 }

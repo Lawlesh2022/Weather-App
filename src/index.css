@@ -5,74 +5,10 @@
   font-family: 'Jost', sans-serif;;
 }
 body{
-  background: goldenrod;
-  display: flex;
-  justify-content: center;
-  align-items: center;    
-  padding: 20px; 
-}
-.container{  
-  border-radius: 1.5rem;
-  box-shadow: 0 0.2rem 3rem rgba(0,0,0,0.2);
-  background:mediumturquoise;  
-  transform: translate3d(0,0,0);
-  width: 100vh;
-  height: 38vh;
-  text-align: center;
-  margin: 10px auto;  
-  border: 2px solid purple;
-  padding-bottom: 35px;
-}
-h1{
-  color: blue;
-  padding: 20px;
-}
-.btn{
-  background-color: aqua;
-  border: 2px solid blue;
-  border-radius: 8px;
-  color: blueviolet;
-  font-weight: bold;
-  cursor: pointer;
-}
-.btn:hover{
-  background-color: blueviolet;
-  color: blue;
-}
-.form-control{
-  border: 2px solid blueviolet;
-  border-radius: 6px;
-}
-.thead{
-  background-color: plum;
-  padding: 10px;
-  margin: 10px 10px;
-  border: 1px solid green;
-  color: blue;
-}
-.tbody{
-  background-color: chartreuse;
-  padding: 10px;
-  border: 1px solid green;
-  color: purple;
-  font-weight: bold;
-}
-.row{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 7px;
-}
-th{
-  border: 2px solid red;
-}
-td{
-  border: 2px solid green;
-}
-
-@keyframes drift{
-  from{
-    transform:rotate(0deg);
-  }
+  background:gold; 
   
+}
+.card-img{
+  height: 90vh;
+  width:100%;
 }
